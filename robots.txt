@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Antes de publicar, descomentar y completar:
+# Sitemap: https://TU-DOMINIO/sitemap.xml
