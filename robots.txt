@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-# Antes de publicar, descomentar y completar:
-# Sitemap: https://TU-DOMINIO/sitemap.xml
+
+Sitemap: https://sandra-pena-acompanamiento.damian8306.chatgpt.site/sitemap.xml
