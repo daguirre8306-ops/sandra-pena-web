@@ -1,0 +1,6 @@
+# Canonical host: preserve paths and queries. Apache / LiteSpeed (Hostinger).
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.sandrapenacoach\.com$ [NC]
+RewriteRule ^ https://sandrapenacoach.com%{REQUEST_URI} [R=301,L,NE]
+</IfModule>

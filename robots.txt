@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sandra-pena-acompanamiento.damian8306.chatgpt.site/sitemap.xml
+Sitemap: https://sandrapenacoach.com/sitemap.xml
