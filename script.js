@@ -5,3 +5,6 @@ document.querySelectorAll('a[href^="#"]:not([data-whatsapp])').forEach(a=>a.addE
 document.querySelector('#year').textContent=new Date().getFullYear();
 if(SITE_CONFIG.whatsapp){const url=`https://wa.me/${SITE_CONFIG.whatsapp}?text=${encodeURIComponent(message)}`;document.querySelectorAll('[data-whatsapp]').forEach(a=>{a.href=url;a.removeAttribute('target');});document.querySelector('.whatsapp').hidden=false;}
 const observer=new IntersectionObserver(items=>items.forEach(i=>{if(i.isIntersecting){i.target.classList.add('visible');observer.unobserve(i.target);}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+
+
+document.querySelectorAll('.ebook-info').forEach(button=>button.addEventListener('click',()=>{const panel=document.getElementById(button.getAttribute('aria-controls'));if(!panel)return;const open=button.getAttribute('aria-expanded')!=='true';button.setAttribute('aria-expanded',String(open));panel.hidden=!open;button.textContent=open?'− info':'+ info';}));
