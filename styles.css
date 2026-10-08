@@ -49,3 +49,15 @@ button:focus-visible{outline:3px solid #d4aa6d;outline-offset:4px}
 @media(max-width:370px){.brand span{font-size:1.12rem}.nav nav{gap:7px}.nav{padding-inline:12px}}
 
 @media(max-width:700px){.ebook-grid{grid-template-columns:1fr}.ebook-card h3{min-height:0}}
+
+/* Precios y colección dentro de la información de cada ebook. */
+.ebook-promotion{margin:24px 0;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.ebook-details .ebook-unit-price{font-size:1.05rem;color:var(--wine);margin-bottom:16px}
+.ebook-unit-price strong{font-size:1.45rem;white-space:nowrap}
+.ebook-bundle{background:var(--cream);border:1px solid var(--line);border-radius:16px;padding:20px 18px}
+.ebook-details .ebook-bundle-label{font-size:.74rem;text-transform:uppercase;letter-spacing:.1em;color:var(--wine);font-weight:700;margin-bottom:8px}
+.ebook-details .ebook-bundle-price{font-size:1.07rem;color:var(--wine);line-height:1.45;margin-bottom:12px}
+.ebook-bundle-price strong{display:block;font-size:1.8rem;white-space:nowrap}
+.ebook-bundle p:not(.ebook-bundle-label):not(.ebook-bundle-price){font-size:.92rem}
+.ebook-bundle .btn{width:100%;min-height:48px}
+.ebook-details .ebook-price-currency{font-size:.78rem;color:var(--muted);margin:12px 0 0}
